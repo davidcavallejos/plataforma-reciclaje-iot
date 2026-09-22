@@ -115,8 +115,14 @@
 
                     @auth
                         @if(auth()->user()->isAdmin())
+                            <a href="{{ route('admin.users') }}" class="px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/80 transition flex items-center gap-2 {{ request()->routeIs('admin.users') ? 'bg-emerald-600/20 text-emerald-400 font-semibold border border-emerald-500/30' : '' }}">
+                                <i class="fa-solid fa-users-gear text-emerald-400"></i> Usuarios
+                            </a>
+                            <a href="{{ route('admin.posts') }}" class="px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800/80 transition flex items-center gap-2 {{ request()->routeIs('admin.posts') ? 'bg-amber-600/20 text-amber-400 font-semibold border border-amber-500/30' : '' }}">
+                                <i class="fa-solid fa-layer-group text-amber-400"></i> Moderación
+                            </a>
                             <a href="{{ route('admin.machine') }}" class="px-3 py-2 rounded-lg bg-amber-500/20 text-amber-300 hover:bg-amber-500/30 transition flex items-center gap-2 border border-amber-500/40 font-semibold">
-                                <i class="fa-solid fa-microchip text-amber-400 animate-pulse"></i> Panel Máquina IoT
+                                <i class="fa-solid fa-microchip text-amber-400 animate-pulse"></i> Máquina IoT
                             </a>
                         @endif
                     @endauth
@@ -202,9 +208,17 @@
             </a>
             @auth
                 @if(auth()->user()->isAdmin())
+                    <a href="{{ route('admin.users') }}" class="flex flex-col items-center text-xs gap-1 {{ request()->routeIs('admin.users') ? 'text-emerald-400 font-bold' : 'text-slate-400' }}">
+                        <i class="fa-solid fa-users-gear text-lg"></i>
+                        <span>Usuarios</span>
+                    </a>
+                    <a href="{{ route('admin.posts') }}" class="flex flex-col items-center text-xs gap-1 {{ request()->routeIs('admin.posts') ? 'text-amber-400 font-bold' : 'text-slate-400' }}">
+                        <i class="fa-solid fa-layer-group text-lg"></i>
+                        <span>Moderación</span>
+                    </a>
                     <a href="{{ route('admin.machine') }}" class="flex flex-col items-center text-xs gap-1 {{ request()->routeIs('admin.machine') ? 'text-amber-400 font-bold' : 'text-slate-400' }}">
                         <i class="fa-solid fa-microchip text-lg"></i>
-                        <span>Máquina IoT</span>
+                        <span>IoT</span>
                     </a>
                 @endif
             @endauth

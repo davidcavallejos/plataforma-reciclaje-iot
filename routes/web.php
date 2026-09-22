@@ -5,6 +5,8 @@ use App\Livewire\MarketplaceFeed;
 use App\Livewire\BusinessRegistry;
 use App\Livewire\InteractiveMap;
 use App\Livewire\Admin\MachineDashboard;
+use App\Livewire\Admin\UserManagement;
+use App\Livewire\Admin\PostManagement;
 use Illuminate\Support\Facades\Route;
 
 // Public Marketplace & Map Routes (Guest Mode Support)
@@ -19,7 +21,9 @@ Route::get('/register', [AuthController::class, 'showRegister'])->name('register
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
-// Admin Exclusive Route for IoT Machine Telemetry & Control Panel
-Route::middleware(['auth', App\Http\Middleware\EnsureUserIsAdmin::class])->group(function () {
-    Route::get('/admin/maquina', MachineDashboard::class)->name('admin.machine');
+// Admin Protected Routes (Role: admin)
+Route::middleware(['auth', 'role:admin'])->prefix('admin')->as('admin.')->group(function () {
+    Route::get('/maquina', MachineDashboard::class)->name('machine');
+    Route::get('/usuarios', UserManagement::class)->name('users');
+    Route::get('/publicaciones', PostManagement::class)->name('posts');
 });
