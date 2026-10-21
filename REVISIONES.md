@@ -1,1 +1,2 @@
 ﻿- Revisión #1 (2026-10-20 20:53): fix: correccion de validacion en formulario de registro
+- Revisión #2 (2026-10-20 20:54): fix: sanitizacion de inputs en controlador de publicaciones
