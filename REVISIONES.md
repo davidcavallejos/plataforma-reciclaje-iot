@@ -31,3 +31,4 @@
 - Revisión #31 (2026-10-20 21:23): fix: timestamps inconsistentes en base de datos
 - Revisión #32 (2026-10-20 21:24): fix: enlace roto en menu de navegacion
 - Revisión #33 (2026-10-20 21:25): fix: ajuste de responsive en seccion de contacto
+- Revisión #34 (2026-10-20 21:26): fix: documentacion de endpoints de la API
