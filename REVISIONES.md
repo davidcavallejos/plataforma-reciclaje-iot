@@ -13,3 +13,4 @@
 - Revisión #13 (2026-10-20 21:05): fix: mensaje de error al iniciar sesion
 - Revisión #14 (2026-10-20 21:06): fix: registro de rutas faltantes en web.php
 - Revisión #15 (2026-10-20 21:07): fix: actualizacion de estado de donacion de aceite
+- Revisión #16 (2026-10-20 21:08): fix: calculo de litros acumulados en dashboard
