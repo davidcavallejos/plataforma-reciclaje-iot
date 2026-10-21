@@ -29,3 +29,4 @@
 - Revisión #29 (2026-10-20 21:21): fix: error 500 al crear nuevo punto de acopio
 - Revisión #30 (2026-10-20 21:22): fix: XSS en comentario de publicaciones
 - Revisión #31 (2026-10-20 21:23): fix: timestamps inconsistentes en base de datos
+- Revisión #32 (2026-10-20 21:24): fix: enlace roto en menu de navegacion
