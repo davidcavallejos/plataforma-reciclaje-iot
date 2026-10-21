@@ -19,3 +19,4 @@
 - Revisión #19 (2026-10-20 21:11): fix: proteccion contra CSRF en formularios
 - Revisión #20 (2026-10-20 21:12): fix: consulta filtrada por usuario en publicaciones
 - Revisión #21 (2026-10-20 21:13): fix: cierre de sesion incorrecto
+- Revisión #22 (2026-10-20 21:14): fix: redireccion despues de login
