@@ -21,3 +21,4 @@
 - Revisión #21 (2026-10-20 21:13): fix: cierre de sesion incorrecto
 - Revisión #22 (2026-10-20 21:14): fix: redireccion despues de login
 - Revisión #23 (2026-10-20 21:15): fix: campo nullable en tabla de mediciones IoT
+- Revisión #24 (2026-10-20 21:16): fix: comportamiento del boton de eliminar publicacion
