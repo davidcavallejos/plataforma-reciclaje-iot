@@ -5,3 +5,4 @@
 - Revisión #5 (2026-10-20 20:57): fix: formato de fechas en vistas blade
 - Revisión #6 (2026-10-20 20:58): fix: error de sintaxis en modelo de Aceite
 - Revisión #7 (2026-10-20 20:59): fix: permisos de carpetas storage
+- Revisión #8 (2026-10-20 21:00): fix: validacion de email duplicado en registro
