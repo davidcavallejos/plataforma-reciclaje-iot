@@ -8,3 +8,4 @@
 - Revisión #8 (2026-10-20 21:00): fix: validacion de email duplicado en registro
 - Revisión #9 (2026-10-20 21:01): fix: carga de assets en modo produccion (vite)
 - Revisión #10 (2026-10-20 21:02): fix: escape de variables en templates blade
+- Revisión #11 (2026-10-20 21:03): fix: conexion a base de datos en entorno local
