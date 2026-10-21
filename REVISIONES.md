@@ -18,3 +18,4 @@
 - Revisión #18 (2026-10-20 21:10): fix: contrasena en texto plano reemplazada por hash
 - Revisión #19 (2026-10-20 21:11): fix: proteccion contra CSRF en formularios
 - Revisión #20 (2026-10-20 21:12): fix: consulta filtrada por usuario en publicaciones
+- Revisión #21 (2026-10-20 21:13): fix: cierre de sesion incorrecto
