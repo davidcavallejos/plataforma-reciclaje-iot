@@ -20,3 +20,4 @@
 - Revisión #20 (2026-10-20 21:12): fix: consulta filtrada por usuario en publicaciones
 - Revisión #21 (2026-10-20 21:13): fix: cierre de sesion incorrecto
 - Revisión #22 (2026-10-20 21:14): fix: redireccion despues de login
+- Revisión #23 (2026-10-20 21:15): fix: campo nullable en tabla de mediciones IoT
