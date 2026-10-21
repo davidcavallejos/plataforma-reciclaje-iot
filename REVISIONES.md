@@ -11,3 +11,4 @@
 - Revisión #11 (2026-10-20 21:03): fix: conexion a base de datos en entorno local
 - Revisión #12 (2026-10-20 21:04): fix: paginacion del panel de administracion
 - Revisión #13 (2026-10-20 21:05): fix: mensaje de error al iniciar sesion
+- Revisión #14 (2026-10-20 21:06): fix: registro de rutas faltantes en web.php
