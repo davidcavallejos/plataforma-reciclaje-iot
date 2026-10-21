@@ -3,3 +3,4 @@
 - Revisión #3 (2026-10-20 20:55): fix: manejo de excepciones en rutas de la API
 - Revisión #4 (2026-10-20 20:56): fix: consulta N+1 en listado de puntos de reciclaje
 - Revisión #5 (2026-10-20 20:57): fix: formato de fechas en vistas blade
+- Revisión #6 (2026-10-20 20:58): fix: error de sintaxis en modelo de Aceite
