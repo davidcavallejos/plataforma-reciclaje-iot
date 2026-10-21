@@ -25,3 +25,4 @@
 - Revisión #25 (2026-10-20 21:17): fix: cache de vistas desactualizada
 - Revisión #26 (2026-10-20 21:18): fix: variables de entorno faltantes en .env.example
 - Revisión #27 (2026-10-20 21:19): fix: validacion de archivos subidos (tipo y peso)
+- Revisión #28 (2026-10-20 21:20): fix: ordenamiento de historial de reciclajes
