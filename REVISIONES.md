@@ -14,3 +14,4 @@
 - Revisión #14 (2026-10-20 21:06): fix: registro de rutas faltantes en web.php
 - Revisión #15 (2026-10-20 21:07): fix: actualizacion de estado de donacion de aceite
 - Revisión #16 (2026-10-20 21:08): fix: calculo de litros acumulados en dashboard
+- Revisión #17 (2026-10-20 21:09): fix: iconos y estilos en formulario de contacto
