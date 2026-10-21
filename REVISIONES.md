@@ -17,3 +17,4 @@
 - Revisión #17 (2026-10-20 21:09): fix: iconos y estilos en formulario de contacto
 - Revisión #18 (2026-10-20 21:10): fix: contrasena en texto plano reemplazada por hash
 - Revisión #19 (2026-10-20 21:11): fix: proteccion contra CSRF en formularios
+- Revisión #20 (2026-10-20 21:12): fix: consulta filtrada por usuario en publicaciones
