@@ -23,3 +23,4 @@
 - Revisión #23 (2026-10-20 21:15): fix: campo nullable en tabla de mediciones IoT
 - Revisión #24 (2026-10-20 21:16): fix: comportamiento del boton de eliminar publicacion
 - Revisión #25 (2026-10-20 21:17): fix: cache de vistas desactualizada
+- Revisión #26 (2026-10-20 21:18): fix: variables de entorno faltantes en .env.example
