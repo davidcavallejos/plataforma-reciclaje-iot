@@ -1,0 +1,1 @@
+﻿- Revisión #1 (2026-10-20 20:53): fix: correccion de validacion en formulario de registro
