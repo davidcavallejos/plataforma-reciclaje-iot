@@ -15,3 +15,4 @@
 - Revisión #15 (2026-10-20 21:07): fix: actualizacion de estado de donacion de aceite
 - Revisión #16 (2026-10-20 21:08): fix: calculo de litros acumulados en dashboard
 - Revisión #17 (2026-10-20 21:09): fix: iconos y estilos en formulario de contacto
+- Revisión #18 (2026-10-20 21:10): fix: contrasena en texto plano reemplazada por hash
