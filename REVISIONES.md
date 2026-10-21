@@ -10,3 +10,4 @@
 - Revisión #10 (2026-10-20 21:02): fix: escape de variables en templates blade
 - Revisión #11 (2026-10-20 21:03): fix: conexion a base de datos en entorno local
 - Revisión #12 (2026-10-20 21:04): fix: paginacion del panel de administracion
+- Revisión #13 (2026-10-20 21:05): fix: mensaje de error al iniciar sesion
