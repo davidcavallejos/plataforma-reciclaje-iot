@@ -1,0 +1,36 @@
+﻿- Revisión #1 (2026-10-20 20:53): fix: correccion de validacion en formulario de registro
+- Revisión #2 (2026-10-20 20:54): fix: sanitizacion de inputs en controlador de publicaciones
+- Revisión #3 (2026-10-20 20:55): fix: manejo de excepciones en rutas de la API
+- Revisión #4 (2026-10-20 20:56): fix: consulta N+1 en listado de puntos de reciclaje
+- Revisión #5 (2026-10-20 20:57): fix: formato de fechas en vistas blade
+- Revisión #6 (2026-10-20 20:58): fix: error de sintaxis en modelo de Aceite
+- Revisión #7 (2026-10-20 20:59): fix: permisos de carpetas storage
+- Revisión #8 (2026-10-20 21:00): fix: validacion de email duplicado en registro
+- Revisión #9 (2026-10-20 21:01): fix: carga de assets en modo produccion (vite)
+- Revisión #10 (2026-10-20 21:02): fix: escape de variables en templates blade
+- Revisión #11 (2026-10-20 21:03): fix: conexion a base de datos en entorno local
+- Revisión #12 (2026-10-20 21:04): fix: paginacion del panel de administracion
+- Revisión #13 (2026-10-20 21:05): fix: mensaje de error al iniciar sesion
+- Revisión #14 (2026-10-20 21:06): fix: registro de rutas faltantes en web.php
+- Revisión #15 (2026-10-20 21:07): fix: actualizacion de estado de donacion de aceite
+- Revisión #16 (2026-10-20 21:08): fix: calculo de litros acumulados en dashboard
+- Revisión #17 (2026-10-20 21:09): fix: iconos y estilos en formulario de contacto
+- Revisión #18 (2026-10-20 21:10): fix: contrasena en texto plano reemplazada por hash
+- Revisión #19 (2026-10-20 21:11): fix: proteccion contra CSRF en formularios
+- Revisión #20 (2026-10-20 21:12): fix: consulta filtrada por usuario en publicaciones
+- Revisión #21 (2026-10-20 21:13): fix: cierre de sesion incorrecto
+- Revisión #22 (2026-10-20 21:14): fix: redireccion despues de login
+- Revisión #23 (2026-10-20 21:15): fix: campo nullable en tabla de mediciones IoT
+- Revisión #24 (2026-10-20 21:16): fix: comportamiento del boton de eliminar publicacion
+- Revisión #25 (2026-10-20 21:17): fix: cache de vistas desactualizada
+- Revisión #26 (2026-10-20 21:18): fix: variables de entorno faltantes en .env.example
+- Revisión #27 (2026-10-20 21:19): fix: validacion de archivos subidos (tipo y peso)
+- Revisión #28 (2026-10-20 21:20): fix: ordenamiento de historial de reciclajes
+- Revisión #29 (2026-10-20 21:21): fix: error 500 al crear nuevo punto de acopio
+- Revisión #30 (2026-10-20 21:22): fix: XSS en comentario de publicaciones
+- Revisión #31 (2026-10-20 21:23): fix: timestamps inconsistentes en base de datos
+- Revisión #32 (2026-10-20 21:24): fix: enlace roto en menu de navegacion
+- Revisión #33 (2026-10-20 21:25): fix: ajuste de responsive en seccion de contacto
+- Revisión #34 (2026-10-20 21:26): fix: documentacion de endpoints de la API
+- Revisión #35 (2026-10-20 21:27): fix: limpieza de logs y archivos temporales
+- Revisión #36 (2026-10-20 21:28): fix: optimizacion final de consultas y revisión general
